@@ -1,0 +1,73 @@
+div {
+  border: 1px solid black;
+  
+}
+
+
+#div1 {
+  height : 100vh;
+  background-color: #f8c291;
+}
+
+#div2 {
+  
+  background-color: #82ccdd;
+  
+}
+
+textarea {
+  height: 83vh;
+  width: 100%;
+}
+
+
+
+#texto {
+  background-color: #f8c291;
+}
+
+#markdown {
+  background-color: #82ccdd;
+}
+
+#preview {
+  height: 83vh;
+  overflow: auto
+}
+
+
+blockquote {
+  color: rgb(55,55,55);
+  margin-top: 5px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  border-left: 4px solid rgb(105,105,105);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+code {
+    background: rgb(210,210,210);
+    padding: 1px 4px 2px 4px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+  }
+
+pre {
+    background: rgb(210, 210,210);
+    padding: 5px 0 5px 5px;
+    margin-right: 25vw;
+  }
+
+th, td {
+  border: 2px solid rgb(15,15,15);
+  padding: 4px;
+}
+ul > li {
+  margin-left: 10px;
+}
